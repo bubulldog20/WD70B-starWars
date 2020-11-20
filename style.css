@@ -1,0 +1,156 @@
+body {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDxUPDw8VFRUVFQ8PDxUPDw8PFRUPFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ8PFS0ZFRktLS0rLS0tKzctNy0tLSstLSstLSsrKysrKy0tLS0tLSstLS0tLS0rLSsrKystLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAKRABAQACAQIFAwUBAQAAAAAAAAERIQIxQVFhcYHwEpHhobHB0fEDIv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AOGgAAAAAA1x426nhb7SZv7AyNcLO8zqyZtmL2qAS6x/EGuEmf8A1bJvpPq3jWszvhkAACQAAFFQUBAAX6b17XpUAQItngCpYAIIqALMd/bWdoAAAAAAAAAC1AFRcAAAAAACgACosAABBT8ggNTHf16b9PIGRcIAY/ACFMoALyud1ZJjOfLG8+vh/rIKioC5QAAAAUEABUUoAAAAo1Od9es3ubmM/PBkBbxsxmddzXWdNfagAAAAALOOfaZvz3QAAAQBF6IAAa9/n5QFRUAAAFAQAAAAFAAAAFFnogAqKAvLlb1tupN3OpqQuO3vvOy3PbHbX7+oIKiKAqiLfL2zrSCAW/PNb88kVEAAAEIUwAW354CKCCgAYQAAAAAUAABv/p/1ziYkxJxv0zGcd741gWTXX08xTCCgAAAIoDUs7+GsXG/Px7ghL2QAIqAufm0qpQXlc7xOkmtdJj+GVJxz8xPuqIC354Ai25F5W+Pjfe/4CTHfz6a32SRb5f1tBCggAAAACoAKigSgACxBRajXPlm517SSfaAgAA1x458Olu7J0337+TKK1wmbJbJLZm3OJ53Et+0RZxuM41MS3tm5x+1+zKigvLlbbbc27tu7b4oIAAvC6uu2OuMbnbuiKLwszuZnlcfqkDl89e4ggAqNSenTPWT5fJJQQAQAARQEAABQAABc9gEFQVRZyxnpvXSXvLrw6IAAANcsaxL03my78tajIoqKgBLrHp6gEgRAAJ5++NqGEUEQw1OVllnWbnqyAS4CiFBqSYubc6xMZl8c3OgYat1+EQAAAABUAUAAAUABQACQAAVFBFAEUAQAyBBAEUW3KABkXCCFReSAqKgAACoAAAogCi8MZn1ZkzM4mbjviIKC8eVm55z2sxf0qAKgCrw69M98VAABFFQAGuHK8bLOsss1LueVQDjxt1JnrfaTN/SUMCiFoWfP3EBFBAAAAEVBBr6bjOLjNmcaz3mfeIgAuAEAAAAUAAAABRUAUAABFAAFRQEBQRUECi0EAEAAIi4119toCxFAQAAABbj+0AAAFRQAAABRTsgLi9fb3EUF4SWyWybkzc4k8biW/ZAFWzH4sv6xDKA1aXH48EQQAABBFAAAAQWggAAAAAAAKgAqACgAWAFFxrPsgAKAoACKAEggAQBFvH+WQBQABAFlEAAAAAf/2Q==);
+}
+
+.logo {
+    position: absolute;
+    height: 250px;
+    width: 225;
+    margin: -60px -150px;
+
+}
+
+header {
+   
+
+}
+
+
+#socialmedia {
+    
+}
+
+ul.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    position: absolute;
+    left: 100px;
+    text-align: left;
+    opacity: .5;
+    padding: 0;
+    min-width: 200px;
+    top: 10px;
+    max-height: 45px;   
+}
+
+.social-media a:hover {
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+    display: block;
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-twitter-square {
+    color: white;
+}
+
+.fa-tumblr {
+    color: white;
+}
+
+.kids {
+    display: block;
+    /*background-image: url(https://static-mh.content.disney.io/starwars/assets/shared/icon_kids-dc39fc54f6c2.svg);*/
+    background-repeat: no-repeat;
+    text-align: center; 
+    background-color: white; 
+    font-family: Arial Black, Helvetica, Arial, sans-serif;
+    font-size: 10px; 
+    border-radius: 10px; 
+    color: black;
+    padding: 1px;
+    margin: 0px 0px 5px 5px;
+}
+
+#searchbar {
+    position: absolute;
+    color: white !important;
+    float: right;
+    padding: 0px;
+    margin: 8px 1000px; 
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#input {
+    background-color: grey;
+    opacity: .5;
+    color: white !important;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#input::placeholder {
+    color: white;
+    opacity: .5;
+}
+
+button {
+    position: absolute;
+    background-color: grey;
+    margin: 2.2px 0px;
+    padding: 11px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    opacity: .5;
+}
+
+#login {
+    position: absolute;
+    display: flex;
+    margin: 60px 50px 0px 1105px;
+    font-family: DIN, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #999999;
+}
+
+#menu {
+    display: block;
+    position: absolute;
+    margin: 200px 100px 100px 0px;
+    text-align: left;
+    opacity: .5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(122, 122, 122);
+    border: solid 1px grey;
+    height: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 1;
+    width: 100%; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+section {
+    display: flex;
+    position: relative;
+
+}
